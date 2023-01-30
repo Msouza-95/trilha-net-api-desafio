@@ -40,6 +40,7 @@ Não se esqueça de gerar a sua migration para atualização no banco de dados.
 | GET    | /Tarefa/ObterPorData    | data      | N/A           |
 | GET    | /Tarefa/ObterPorStatus  | status    | N/A           |
 | POST   | /Tarefa                 | N/A       | Schema Tarefa |
+| PUT    | /MudarStatus            | id        | N/A           |
 
 Esse é o schema (model) de Tarefa, utilizado para passar para os métodos que exigirem
 
@@ -55,4 +56,4 @@ Esse é o schema (model) de Tarefa, utilizado para passar para os métodos que e
 
 
 ## Solução
-O código está pela metade, e você deverá dar continuidade obedecendo as regras descritas acima, para que no final, tenhamos um programa funcional. Procure pela palavra comentada "TODO" no código, em seguida, implemente conforme as regras acima.
+O código estava pela metade, e foi dado a continuidade obedecendo as regras descritas acima, para que no final, tenhamos um programa funcional. além disso foi adicionado um Endpoint a mais - MudarStatus
